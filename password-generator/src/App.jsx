@@ -11,18 +11,26 @@ function App() {
   const [range, setRange] = useState(0);
   const [length, setLength] = useState(0);
   const [strength, setStrength] = useState('weak');
-  const [password, setPassword] = useState();
+  const [password, setPassword] = useState('');
   const [upperCase, setUpperCase] = useState(false);
   const [lowerCase, setLowerCase] = useState(false);
   const [number, setNumber] = useState(false);
   const [symbol, setSymbol] = useState(false);
   const [generatePasswordButton, setGeneratePasswordButton] = useState(false);
+  const [copyButton, setCopyButton] = useState(false);
 
   const pwdRef = useRef();
 
   useEffect(() => {
-    if (length >= 4) setGeneratePasswordButton(true);
+    if (password.length > 0) setCopyButton(true);
+    else setCopyButton(false);
+  }, [password]);
+
+  useEffect(() => {
+    if (length >= 4 && (upperCase || lowerCase))
+      setGeneratePasswordButton(true);
     else if (length < 4) setGeneratePasswordButton(false);
+    if (!upperCase && !lowerCase) setGeneratePasswordButton(false);
 
     if (length >= 7 && upperCase && lowerCase && number && symbol) {
       setStrength('very strong');
@@ -65,14 +73,20 @@ function App() {
   };
 
   const copyToClipboard = () => {
-    console.log(pwdRef.current.text)
-  }
+    navigator.clipboard.writeText(pwdRef.current.textContent);
+  };
 
   return (
     <div className='password-generator-card'>
       <div className='password-section'>
-        <div className='password' ref={pwdRef}>{password}</div>
-        <button className='copy-btn' onClick={copyToClipboard}>
+        <div className='password' ref={pwdRef}>
+          {password}
+        </div>
+        <button
+          disabled={!copyButton}
+          className='copy-btn'
+          onClick={copyToClipboard}
+        >
           Copy
         </button>
       </div>
