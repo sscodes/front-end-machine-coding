@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-size: 7rem;
+}
+
+.differentiator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

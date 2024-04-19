@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 36);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.otp-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.otp-section {
+  width: 35vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid rgb(2, 3, 4);
+  border-radius: 15px;
+  background-color: rgb(2, 3, 4);
+  caret-color: aliceblue;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.input-initial-state{
+  color: rgb(2, 3, 4);
+}

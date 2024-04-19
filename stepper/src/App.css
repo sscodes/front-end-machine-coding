@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.stepper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pipe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pipe {
+  display: inline-block;
+  width: 11rem;
+  height: 0.4rem;
+  background-color: gray;
+  position: relative;
+}
+
+.inner-pipe{
+  position: absolute;
+  display: inline-block;
+  width: 11rem;
+  height: 0.4rem;
+  background-color: green;
+  max-width: 100%;
+}
+
+.round {
+  background-color: gray;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.past-active{
+  background-color: green;
+  color: white;
+}
+
+.round-label {
+  position: absolute;
+  top: 110%;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.content-section {
+  margin-top: 5%;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.button-section {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4rem;
+  cursor: pointer;
+}

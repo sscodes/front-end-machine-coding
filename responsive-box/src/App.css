@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.parent__box {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: red;
+}
+
+.box {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: blue;
+}
+
+.parent__2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.box2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.parent__3 {
+  width: 100%;
+  height: 100%;
+}
+
+.section__1 {
+  display: flex;
+  justify-content: start;
+}
+
+.section__2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section__3 {
+  display: flex;
+  justify-content: end;
+}
+
+.parent__box__2 {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: green;
+}
+
+@media (max-width: 950px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    align-items: center;
+  }
+}
