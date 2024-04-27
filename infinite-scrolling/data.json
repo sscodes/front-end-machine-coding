@@ -1,0 +1,894 @@
+{
+  "restuarants": [
+    {
+      "name": "Taste of Italy",
+      "rating": 4.2,
+      "pure_veg": true,
+      "address": "123 Main Street, City, Country",
+      "type": "Italian",
+      "offer": null,
+      "distance": 2.5,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Spice Junction",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "456 Elm Street, City, Country",
+      "type": "Indian",
+      "offer": "Free appetizer with every order",
+      "distance": 3.2,
+      "time": "45 minutes"
+    },
+    {
+      "name": "Dragon Delights",
+      "rating": 4.0,
+      "pure_veg": true,
+      "address": "789 Oak Street, City, Country",
+      "type": "Chinese",
+      "offer": "10% off on orders above $50",
+      "distance": 1.8,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Pizza Palace",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "101 Pine Street, City, Country",
+      "type": "Pizza",
+      "offer": null,
+      "distance": 4.5,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Sizzling Sushi",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "222 Maple Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all rolls",
+      "distance": 5.0,
+      "time": "50 minutes"
+    },
+    {
+      "name": "Burger Barn",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "333 Cedar Street, City, Country",
+      "type": "American",
+      "offer": "Free fries with any burger combo",
+      "distance": 3.7,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Veggie Delight",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "444 Birch Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 2.0,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Seafood Sensation",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "555 Elm Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 4.2,
+      "time": "45 minutes"
+    },
+    {
+      "name": "Healthy Haven",
+      "rating": 4.4,
+      "pure_veg": true,
+      "address": "666 Oak Street, City, Country",
+      "type": "Health Food",
+      "offer": "20% off on all salads",
+      "distance": 1.5,
+      "time": "15 minutes"
+    },
+    {
+      "name": "BBQ Bonanza",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "777 Pine Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 3.8,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Munchies",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "888 Maple Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 4.8,
+      "time": "50 minutes"
+    },
+    {
+      "name": "Café Creations",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "999 Cedar Street, City, Country",
+      "type": "Café",
+      "offer": "Buy one get one free on all coffee drinks",
+      "distance": 2.9,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Tandoori Temptations",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "123 Oak Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 3.1,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Noodle Nirvana",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "456 Pine Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 4.0,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Gourmet Grub",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "789 Elm Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 2.6,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Fusion Feast",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "101 Maple Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 3.5,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Central",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "234 Cedar Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.1,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Bistro Bliss",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "567 Pine Street, City, Country",
+      "type": "French",
+      "offer": "Complimentary glass of wine with every entrée",
+      "distance": 3.9,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Vegetarian Vibes",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "678 Oak Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.7,
+      "time": "15 minutes"
+    },
+    {
+      "name": "Fisherman's Catch",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "789 Elm Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 2.8,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Salad Stop",
+      "rating": 4.6,
+      "pure_veg": true,
+      "address": "890 Pine Street, City, Country",
+      "type": "Salad",
+      "offer": "20% off on all salad bowls",
+      "distance": 1.3,
+      "time": "10 minutes"
+    },
+    {
+      "name": "BBQ Heaven",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "123 Oak Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 3.0,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Pasta Paradise",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "456 Elm Street, City, Country",
+      "type": "Italian",
+      "offer": "Free garlic bread with every pasta order",
+      "distance": 3.7,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Tasty Thai",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "789 Maple Street, City, Country",
+      "type": "Thai",
+      "offer": "10% off on all curries",
+      "distance": 2.2,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Burger Bliss",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "101 Cedar Street, City, Country",
+      "type": "American",
+      "offer": null,
+      "distance": 4.3,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Marvels",
+      "rating": 4.8,
+      "pure_veg": false,
+      "address": "234 Oak Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 1.9,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Café Chic",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "567 Pine Street, City, Country",
+      "type": "Café",
+      "offer": "Complimentary dessert with every coffee order",
+      "distance": 3.6,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Sensation",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "678 Elm Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.0,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Curry Corner",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "789 Cedar Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 2.7,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Noodle Nook",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "890 Oak Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 4.1,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Gourmet Grub",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "123 Pine Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 3.4,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Fusion Flavors",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "456 Maple Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 3.2,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Veggie Village",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "789 Elm Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.6,
+      "time": "15 minutes"
+    },
+    {
+      "name": "Seafood Shack",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "101 Cedar Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 2.9,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Salad Sensation",
+      "rating": 4.6,
+      "pure_veg": true,
+      "address": "234 Pine Street, City, Country",
+      "type": "Salad",
+      "offer": "20% off on all salad bowls",
+      "distance": 1.2,
+      "time": "10 minutes"
+    },
+    {
+      "name": "BBQ Bistro",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "345 Maple Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 2.5,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Pasta Perfect",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "456 Oak Street, City, Country",
+      "type": "Italian",
+      "offer": "Free garlic bread with every pasta order",
+      "distance": 3.5,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Thai Temptations",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "567 Pine Street, City, Country",
+      "type": "Thai",
+      "offer": "10% off on all curries",
+      "distance": 2.1,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Burger Blitz",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "678 Elm Street, City, Country",
+      "type": "American",
+      "offer": null,
+      "distance": 4.2,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Magic",
+      "rating": 4.8,
+      "pure_veg": false,
+      "address": "789 Maple Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 1.8,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Café Crave",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "890 Pine Street, City, Country",
+      "type": "Café",
+      "offer": "Complimentary dessert with every coffee order",
+      "distance": 3.5,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Savor",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "123 Cedar Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.2,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Curry Cuisine",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "234 Oak Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 2.6,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Noodle Nation",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "345 Elm Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 3.9,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Global Grub",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "456 Cedar Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 3.2,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Fusion Fare",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "567 Pine Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 3.4,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Veggie Villa",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "678 Elm Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.5,
+      "time": "15 minutes"
+    },
+    {
+      "name": "Seafood Station",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "789 Oak Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 3.0,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Salad Stop",
+      "rating": 4.6,
+      "pure_veg": true,
+      "address": "890 Pine Street, City, Country",
+      "type": "Salad",
+      "offer": "20% off on all salad bowls",
+      "distance": 1.0,
+      "time": "10 minutes"
+    },
+    {
+      "name": "BBQ Bistro",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "101 Elm Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 2.3,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Pasta Paradise",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "234 Oak Street, City, Country",
+      "type": "Italian",
+      "offer": "Free garlic bread with every pasta order",
+      "distance": 3.3,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Thai Thrills",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "345 Pine Street, City, Country",
+      "type": "Thai",
+      "offer": "10% off on all curries",
+      "distance": 2.0,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Burger Bonanza",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "456 Elm Street, City, Country",
+      "type": "American",
+      "offer": null,
+      "distance": 4.1,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Magic",
+      "rating": 4.8,
+      "pure_veg": false,
+      "address": "567 Maple Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 1.7,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Café Cool",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "678 Pine Street, City, Country",
+      "type": "Café",
+      "offer": "Complimentary dessert with every coffee order",
+      "distance": 3.3,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Supreme",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "789 Cedar Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.3,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Curry Central",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "890 Oak Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 2.5,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Noodle Nirvana",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "101 Elm Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 3.8,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Global Gourmet",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "234 Pine Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 3.1,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Fusion Flavors",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "345 Cedar Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 3.6,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Veggie Valley",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "456 Elm Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.3,
+      "time": "15 minutes"
+    },
+    {
+      "name": "Seafood Sensation",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "567 Oak Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 2.6,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Salad Shack",
+      "rating": 4.6,
+      "pure_veg": true,
+      "address": "678 Pine Street, City, Country",
+      "type": "Salad",
+      "offer": "20% off on all salad bowls",
+      "distance": 0.9,
+      "time": "10 minutes"
+    },
+    {
+      "name": "BBQ Beat",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "789 Cedar Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 2.1,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Pasta Plaza",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "890 Elm Street, City, Country",
+      "type": "Italian",
+      "offer": "Free garlic bread with every pasta order",
+      "distance": 3.1,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Thai Tastes",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "101 Pine Street, City, Country",
+      "type": "Thai",
+      "offer": "10% off on all curries",
+      "distance": 1.9,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Burger Bistro",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "234 Oak Street, City, Country",
+      "type": "American",
+      "offer": null,
+      "distance": 4.0,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Morsels",
+      "rating": 4.8,
+      "pure_veg": false,
+      "address": "345 Maple Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 1.6,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Café Comfort",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "456 Pine Street, City, Country",
+      "type": "Café",
+      "offer": "Complimentary dessert with every coffee order",
+      "distance": 3.2,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Selection",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "567 Elm Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.4,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Curry Cove",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "678 Pine Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 2.4,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Noodle Nest",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "789 Oak Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 3.7,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Global Grill",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "890 Cedar Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 3.0,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Fusion Fare",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "101 Pine Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 3.5,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Veggie Ville",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "234 Elm Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.2,
+      "time": "15 minutes"
+    },
+    {
+      "name": "Seafood Sanctuary",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "345 Pine Street, City, Country",
+      "type": "Seafood",
+      "offer": "Free dessert with every seafood platter",
+      "distance": 2.5,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Salad Spot",
+      "rating": 4.6,
+      "pure_veg": true,
+      "address": "456 Oak Street, City, Country",
+      "type": "Salad",
+      "offer": "20% off on all salad bowls",
+      "distance": 0.8,
+      "time": "10 minutes"
+    },
+    {
+      "name": "BBQ Bliss",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "567 Elm Street, City, Country",
+      "type": "Barbecue",
+      "offer": null,
+      "distance": 2.0,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Pasta Palace",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "678 Maple Street, City, Country",
+      "type": "Italian",
+      "offer": "Free garlic bread with every pasta order",
+      "distance": 3.0,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Thai Treats",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "789 Cedar Street, City, Country",
+      "type": "Thai",
+      "offer": "10% off on all curries",
+      "distance": 1.8,
+      "time": "25 minutes"
+    },
+    {
+      "name": "Burger Base",
+      "rating": 4.2,
+      "pure_veg": false,
+      "address": "890 Elm Street, City, Country",
+      "type": "American",
+      "offer": null,
+      "distance": 3.9,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Mediterranean Munchies",
+      "rating": 4.8,
+      "pure_veg": false,
+      "address": "101 Pine Street, City, Country",
+      "type": "Mediterranean",
+      "offer": "Free hummus dip with pita bread",
+      "distance": 1.5,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Café Cozy",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "234 Maple Street, City, Country",
+      "type": "Café",
+      "offer": "Complimentary dessert with every coffee order",
+      "distance": 3.1,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Sushi Select",
+      "rating": 4.6,
+      "pure_veg": false,
+      "address": "345 Cedar Street, City, Country",
+      "type": "Japanese",
+      "offer": "Buy one get one free on all sushi rolls",
+      "distance": 2.5,
+      "time": "20 minutes"
+    },
+    {
+      "name": "Curry Corner",
+      "rating": 4.4,
+      "pure_veg": false,
+      "address": "456 Oak Street, City, Country",
+      "type": "Indian",
+      "offer": null,
+      "distance": 2.4,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Noodle Nook",
+      "rating": 4.3,
+      "pure_veg": false,
+      "address": "567 Elm Street, City, Country",
+      "type": "Asian",
+      "offer": "Free spring rolls with orders over $25",
+      "distance": 3.6,
+      "time": "40 minutes"
+    },
+    {
+      "name": "Global Gourmet",
+      "rating": 4.7,
+      "pure_veg": false,
+      "address": "678 Pine Street, City, Country",
+      "type": "International",
+      "offer": "10% off on all gourmet dishes",
+      "distance": 2.9,
+      "time": "35 minutes"
+    },
+    {
+      "name": "Fusion Fare",
+      "rating": 4.5,
+      "pure_veg": false,
+      "address": "789 Cedar Street, City, Country",
+      "type": "Fusion",
+      "offer": "Free dessert sampler with every order",
+      "distance": 2.2,
+      "time": "30 minutes"
+    },
+    {
+      "name": "Veggie Village",
+      "rating": 4.8,
+      "pure_veg": true,
+      "address": "890 Elm Street, City, Country",
+      "type": "Vegetarian",
+      "offer": "15% off on all veggie dishes",
+      "distance": 1.1,
+      "time": "15 minutes"
+    }
+  ]
+}
