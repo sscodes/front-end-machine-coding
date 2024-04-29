@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.tic-tac-toe-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+  display: inline-block;
+  height: 7rem;
+  width: 7rem;
+  border: 2px solid black;
+  cursor: pointer;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+}
