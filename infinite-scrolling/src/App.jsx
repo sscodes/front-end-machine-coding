@@ -1,38 +1,39 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
+import { useQuery } from '@tanstack/react-query';
 
 function App() {
-  const [restuarants, setRestuarants] = useState();
-  let limit = useRef(10);
+  const [limit, setLimit] = useState(10);
 
-  const fetchData = () => {
-    console.log('here');
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      limit.current += 10;
-      console.log(limit.current);
-      fetch(`http://localhost:3000/restuarants?_limit=${limit.current}`)
-        .then((res) => res.json())
-        .then((data) => setRestuarants(data))
-        .catch((err) => console.error(err));
-    }
+  const { data: restuarants } = useQuery({
+    queryKey: ['restuarants', limit],
+    queryFn: async () => {
+      const res = await fetch(
+        `http://localhost:3000/restuarants?_limit=${limit}`
+      );
+      return await res.json();
+    },
+  });
+
+  console.log(restuarants)
+
+  const handleScrolledToBottom = () => {
+    if (
+      document.documentElement.scrollTop + window.innerHeight >=
+      document.documentElement.scrollHeight
+    )
+      setLimit((e) => e + 10);
   };
 
   useEffect(() => {
-    fetch(`http://localhost:3000/restuarants?_limit=${limit.current}`)
-      .then((res) => res.json())
-      .then((data) => setRestuarants(data))
-      .catch((err) => console.error(err));
-      
-    window.addEventListener('scroll', fetchData);
+    window.addEventListener('scroll', handleScrolledToBottom);
 
-    return () => {
-      window.removeEventListener('scroll', fetchData);
-    };
+    return () => window.removeEventListener('scroll', handleScrolledToBottom);
   }, []);
 
   return (
     <div className='list'>
-      {restuarants?.slice(0, 10).map((restuarant) => (
+      {restuarants?.map((restuarant) => (
         <div key={restuarant.name} className='list-element'>
           <h4>{restuarant.name}</h4>
           <div>{restuarant.rating}</div>
